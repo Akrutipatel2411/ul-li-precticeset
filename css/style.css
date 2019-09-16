@@ -1,0 +1,223 @@
+body,html
+{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+    color: #777;
+    font-size: 14px;
+}
+*
+{
+    box-sizing: border-box;
+}
+ul,li
+{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    display: inline-block;
+}
+.head
+{
+    width: 100%;
+    background-color: #666;
+    
+}
+.nav-head
+{
+    width: 100%;
+}
+.container
+{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0px 15px;
+    position: relative;
+}
+.nav-cont
+{
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    color: #000;
+}
+.first-half
+{
+    width: 41.667%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.first-half-head
+{
+    width: 50%;
+    padding: 10px 0px;
+}
+.phone
+{
+    color: yellow;
+    font-size: 12px;
+    padding: 0px 5px;
+    font-weight: 400;
+}
+.head .nav-cont .first-half-head span
+{
+/*    color: #000;*/
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.7
+    
+    
+}
+.head .nav-cont .first-half-head span:hover
+{
+    color: yellow;
+    cursor: pointer;
+}
+
+
+.first-last-head
+{
+    width: 50%;
+    align-content: center;
+    padding: 10px 0px;
+    
+}
+.head .nav-cont .first-last-head span
+{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.7;
+    
+}
+.head .nav-cont .first-last-head span:hover
+{
+    color: yellow;
+    cursor: pointer;
+}
+
+.second-half
+{
+    width: 58.34%;
+    background-color: lightcyan;
+    justify-content: flex-start;
+    align-content: center;
+    display: flex;
+    position: relative;
+    
+}
+.default
+{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.7;
+    padding: 10px 0px;
+    width: 20%;
+    background-color: lightcoral;
+}
+.nav-menus
+{
+    padding: 10px 0px;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    position: relative;
+    
+}
+.nav-menus>*+*
+{
+    margin-left: 10px;
+}
+
+.compare
+{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+.nav-menus::before
+{
+    content: "";
+    position: absolute;
+    top: 2px;
+    width: 1px;
+    height: 80%;
+    left: -6px;
+    
+}
+.compare:hover
+{
+    color: yellow;
+}
+.acc
+{
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    
+}
+.acc::before
+{
+    content: "";
+    width: 1px;
+    height: 80%;
+    position: absolute;
+    top: 2px;
+    left: 13px;
+}
+.nav-list
+{
+    display: block;
+}
+.nav-items
+{
+    
+   position: relative;  
+}
+.my-span
+{
+    font-size: 12px;
+    line-height: 1.7;
+}
+.downarrow
+{
+    color: #777;
+    font-size: 12px;
+    font-weight: 400;
+}
+.acc .nav-list:hover
+{
+    opacity: 1;
+   
+}
+.inner-ul
+{
+    display: none;
+     width: 200px;
+    height: auto;
+    background-color: lightgrey;
+    
+    
+}
+.inner-ul li
+{
+    padding: 10px 0px;
+    color: lightpink;
+    font-size: 12px;
+    font-weight: 500;
+}
+.inner-ul li a
+{
+    padding: 5px;
+    color: inherit;
+    font: inherit;
+}
