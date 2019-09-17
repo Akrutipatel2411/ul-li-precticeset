@@ -12,6 +12,7 @@ body,html
 {
     box-sizing: border-box;
 }
+
 ul,li
 {
     margin: 0%;
@@ -23,16 +24,21 @@ a
     text-decoration: none;
     display: inline-block;
 }
+/*
 .head
 {
     width: 100%;
     background-color: #666;
     
 }
+*/
+/*
 .nav-head
 {
     width: 100%;
 }
+*/
+/*
 .container
 {
     width: 90%;
@@ -40,6 +46,8 @@ a
     padding: 0px 15px;
     position: relative;
 }
+*/
+/*
 .nav-cont
 {
     display: flex;
@@ -47,9 +55,11 @@ a
     align-content: center;
     color: #000;
 }
+*/
+/*
 .first-half
 {
-    width: 41.667%;
+    width: 41%;
     background-color: lightblue;
     display: flex;
     justify-content: space-between;
@@ -58,8 +68,10 @@ a
 .first-half-head
 {
     width: 50%;
-    padding: 10px 0px;
+    padding-top: 18px;
 }
+*/
+/*
 .phone
 {
     color: yellow;
@@ -69,7 +81,7 @@ a
 }
 .head .nav-cont .first-half-head span
 {
-/*    color: #000;*/
+    color: #000;
     font-size: 12px;
     font-weight: 700;
     line-height: 1.7
@@ -81,13 +93,15 @@ a
     color: yellow;
     cursor: pointer;
 }
+*/
 
 
+/*
 .first-last-head
 {
     width: 50%;
     align-content: center;
-    padding: 10px 0px;
+    padding-top: 18px;
     
 }
 .head .nav-cont .first-last-head span
@@ -97,6 +111,8 @@ a
     line-height: 1.7;
     
 }
+*/
+/*
 .head .nav-cont .first-last-head span:hover
 {
     color: yellow;
@@ -105,7 +121,7 @@ a
 
 .second-half
 {
-    width: 58.34%;
+    width: 57%;
     background-color: lightcyan;
     justify-content: flex-start;
     align-content: center;
@@ -113,6 +129,8 @@ a
     position: relative;
     
 }
+*/
+/*
 .default
 {
     font-size: 12px;
@@ -133,6 +151,8 @@ a
     position: relative;
     
 }
+*/
+/*
 .nav-menus>*+*
 {
     margin-left: 10px;
@@ -154,6 +174,8 @@ a
     left: -6px;
     
 }
+*/
+/*
 .compare:hover
 {
     color: yellow;
@@ -174,6 +196,8 @@ a
     top: 2px;
     left: 13px;
 }
+*/
+/*
 .nav-list
 {
     display: block;
@@ -194,6 +218,8 @@ a
     font-size: 12px;
     font-weight: 400;
 }
+*/
+/*
 .acc .nav-list:hover
 {
     opacity: 1;
@@ -208,6 +234,8 @@ a
     
     
 }
+*/
+/*
 .inner-ul li
 {
     padding: 10px 0px;
@@ -221,3 +249,80 @@ a
     color: inherit;
     font: inherit;
 }
+
+
+*/
+
+
+/*  ul-li*/
+
+
+
+.main-head
+{
+    width: 100%;
+    background-color: lightcoral;
+    
+    
+}
+.container
+{
+    width: 90%;
+    padding: 0px 15px;
+    position: relative;
+}
+.navigation
+{
+    width: 100%;
+}
+.nav-list
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.nav-items
+{
+    
+}
+.nav-link
+{
+    color: lightblue;
+    padding: 10px;
+}
+.nav-drop-list
+{
+    display: none;
+    position: absolute;
+/*    top: 47px;*/
+    padding: 0;
+/*    display: block;*/
+    background-color: lightcoral;
+    width: 150px;
+    transition: 0.3s all ease;
+    
+}
+
+.nav-drop-link
+{
+    padding: 10px;
+    color: lightpink;
+
+}
+
+.nav-list .dropme:hover .nav-drop-list
+{
+    display: block;
+    
+}
+ .nav-drop-list li:hover
+{
+    background-color: lightblue;
+
+}
+
+.nav-drop-list a:hover
+{
+    color: lightcoral;
+}
+
